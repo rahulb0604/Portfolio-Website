@@ -1,0 +1,347 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   background-color:#4d3d79;
+}
+.navbar{
+    background-color: #362761;
+    border-width: 20px;
+    /* height: 40px; */
+    border: 14px solid #362761;
+    margin: auto;
+}
+.navbar a{
+    background-color:#362761 ;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 3.5rem;  
+}
+.navbar a:hover{
+    color: aquamarine;
+}
+.navbar .h{
+    margin-left: 700px;
+}
+.navbar .logo{
+      color: aquamarine;
+      font-size: 24px;
+      background-color: #362761;
+      margin-left: 60px;
+      /* margin-top: 16px; */
+}
+.home{
+    height: 550px;
+    /* width: 600px; */
+}
+.home .i{
+    margin-top: 210px;
+    margin-left: 150px;
+    font-size: 28px;
+    color: white;
+}
+.home .img1{
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+    margin-right: 50px;
+}
+.about{
+    margin-top: 100px;
+    height: 700px;
+}
+.about img{
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.about img:hover{
+    border: 3px solid aqua;
+}
+.about h2{
+    text-align: center;
+    font-size: 45px;
+    margin-left: -280px;
+    margin-top: -100px;
+    color: white;
+}
+.about h5{
+    text-align: center;
+    margin-left: -385px;
+    margin-top: -170px;
+    font-size: 28px;
+    text-decoration: underline;
+    color: white;
+}
+.about h6{
+    text-align: center;
+    margin-left: 210px;
+    font-size: 24px;
+    color: white;
+}
+.about .w{
+    margin-left: 235px;
+}
+.about .q{
+    margin-left:200px ;
+}
+.about .e{
+    margin-left: -364px;
+}
+.about button{
+    margin-top:16px;
+    margin-left: 520px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: aquamarine;
+}
+.skill{
+    height: 610px;
+}
+.skill h2{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.skill h6{
+    text-align: center;
+    font-size: 19px;
+    margin-left: 40px;
+}
+.skill .icon{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-template-rows: repeat(3,100px);
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.skill .icon  img{
+    display: flex;
+}
+.skill .icon a{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 18px;
+}
+.skill .icon a:hover{
+    text-decoration: underline;
+}
+.skill .icon .javas a{
+
+    margin-left: -16px;
+}
+.skill .icon .boot a{
+    margin-left: -15px;
+}
+.skill .icon .linux a{
+    margin-left: -1px;
+} 
+.skill .icon .python a{
+    margin-left: -5px;
+}
+.skill .icon .html a{
+    margin-left: -0.05px;
+}
+.project{
+    height: 600px;
+}
+.project h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.project .card{
+    display: grid;
+    grid-template-columns:repeat(3,380px) ;
+    margin-left: 238px;
+    margin-top: 100px;
+}
+.project .card .Temp:hover{
+    border: 3px solid rgb(0, 0, 0);
+}
+.project .card .twitter:hover{
+    border: 3px solid black;
+}
+.project .card .travel:hover{
+    border: 3px solid black;
+}
+.project .card a{
+    font-size: 20px;
+}
+.project .card .Temp h3{
+      font-size: 21px;
+      background-color: #362761;
+      padding-top: 10px;
+      height: 60px;
+      width: 220px;
+      padding-left: 30px;
+}
+.project .card .Temp img{
+    margin-left: 30px;
+    margin-top: 15px
+}
+.project .card .travel h3{
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left: 4px;
+    background-color: #362761;
+    height: 60px;
+    width: 200px;
+    padding-left: 75px;
+}
+.project .card .travel img{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.project .card .twitter h3{
+    font-size: 21px;
+    background-color: #362761;
+    height: 60px;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.project .card .twitter img{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.project .card .Temp button{
+    height: 30px;
+    width: 100px;
+    border-radius:20px ;
+    border: 2px solid black;
+    margin-left: 80px;
+    font-size: 17px;
+}
+.project .card .Temp button:hover{
+    background-color: #7663abbf;
+}
+
+.project .card .travel button{
+    height: 30px;
+    width: 100px;
+    border-radius:20px ;
+    border: 2px solid black;
+    margin-left: 80px;
+    font-size: 17px;
+}
+.project .card .travel button:hover{
+    background-color: #7663abbf;
+}
+.project .card .twitter button{
+    height: 30px;
+    width: 100px;
+    border-radius:20px ;
+    border: 2px solid black;
+    margin-left: 85px;
+    font-size: 17px;
+}
+.project .card .twitter button:hover{
+    background-color: #7663abbf;
+}
+.project .card .Temp {
+    background-color: #362761;
+    height: 360px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.project .card .travel{
+    background-color: #362761;
+    height: 360px;
+    width: 280px;
+    border-radius: 10px;
+}
+.project .card .twitter{
+    background-color: #362761;
+    height: 360px;
+    width: 280px;
+    border-radius: 10px;
+}
+.contact{
+    height: 550px;
+}
+.contact h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.contact .info{
+    margin-left: 400px;
+    margin-top: 190px;
+}
+.contact .info .loc{
+    display: flex;
+}
+.contact .info .loc i{
+    font-size: 22px;
+}
+.contact .info .loc h6{
+    font-size: 20px;
+    margin-left: 9px;
+}
+.contact .info .pho{
+    display: flex;
+    margin-top: 9px;
+}
+.contact .info .pho i{
+    font-size: 22px;
+}
+.contact .info .pho h6{
+    font-size: 20px;
+    margin-left: 9px;
+}
+.contact .info .em{
+    display: flex;
+    margin-top: 9px;
+}
+.contact .info .em i{
+    font-size: 22px;
+}
+.contact .info .em h6{
+    font-size: 20px;
+    margin-left: 9px;
+}
+.contact .fr{
+    margin-left: 400px;
+    margin-top: -90px;
+}
+.contact .fr form .name input{
+    font-size: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 4px;
+}
+.contact .fr form .email input{
+    font-size: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid black;
+}
+.contact .fr form .mess input{
+    margin-top: 4px;
+    font-size: 20px;
+    height: 35px;
+    width: 307px;
+    background-color: white;
+    border: 2px solid black;
+}
+.contact .info .send{
+    width: 100px;
+    height: 40px;
+    margin-left: 610px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
